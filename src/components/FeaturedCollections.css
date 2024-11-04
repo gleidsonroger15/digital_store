@@ -1,0 +1,127 @@
+/* src/components/FeaturedCollections.css */
+.collection-container {
+  display: flex; /* Usando flexbox para organizar os cards em linha */
+  justify-content: space-between; /* Espaçamento entre os cards */
+  gap: 20px; /* Espaçamento entre os cards */
+  margin-top: 20px; /* Espaço acima da lista de coleções */
+  
+}
+
+.collection-card {
+  border: 0px solid;
+  background: #D8E3F2;
+  border-radius: 8px;
+  padding: 25px 0px 30px 25px;
+  display: flex; /* Usando flexbox para organizar o conteúdo do card */
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex: 1; /* Permite que os cards cresçam igualmente */
+  min-width: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+.discount-tag {
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  background-color: #E7FF86;
+  color: #474747;
+  padding: 6px 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.text-content1 {
+  flex: 1; /* Permite que o texto ocupe o espaço restante */
+  padding-right: 16px; /* Espaço entre o texto e a imagem */
+}
+
+.product-image {
+  width: 60%; /* Ajuste a largura conforme necessário */
+  height: auto;
+  border-radius: 8px;
+  justify-content: right;
+  align-items: end;
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+
+.collection-name {
+  font-size: 30px; /* Aumente o tamanho da fonte conforme desejado */
+  margin-top: 8%;
+  font-weight:700;
+  width: 51%;
+  position: relative;
+  font-size: 32px;
+  height: 50%;
+}
+
+.buy-button {
+  display: inline-block;
+  background-color: #F5F5F5;
+  color:  #C92071;
+  padding: 10px 40px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0;
+  font-weight:bold;
+}
+
+.buy-button:hover {
+  background-color:  #C92071;
+  color:  white;
+}
+
+.section-title{
+  text-align: left;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.collection-card:hover {
+  transform: scale(1.05); /* Aumenta o tamanho em 5% ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensifica a sombra */
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.view-all-link {
+  font-size: 18px;
+  color: #C92071;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.view-all-link:hover {
+  text-decoration: underline;
+}
+
+.view-all-link .arrow {
+  margin-left: 5px;
+  font-size: 16px; /* Tamanho da seta */
+}

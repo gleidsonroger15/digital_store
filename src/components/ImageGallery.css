@@ -1,0 +1,45 @@
+/* src/components/ImageGallery.css */
+.slide {
+    display: flex;
+    justify-content: space-between; /* Espaça o texto e a imagem */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 90px; /* Espaçamento interno */
+    height: 500px; /* Altura do slide */
+    background-color: #F5F5F5;
+}
+.orange{
+    color: #F6AA1C;
+}
+
+.descricaotenis{
+    color:#474747;
+    margin-bottom: 20px;
+    
+}
+.slide h1{
+    font-weight: 900;
+    width: 380px;
+}
+
+.text-content2{
+    flex: 1; /* O texto ocupa espaço flexível */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+    text-align: left;
+}
+
+.slide-image {
+    width: 700px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.btn-bd-primary{
+    width: 150px;
+    border: 0px solid;
+    
+}
+
+.btn-bd-primary:hover {
+    background-color: #E7FF86;
+    color:#474747;
+}
+

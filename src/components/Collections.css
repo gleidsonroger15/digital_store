@@ -1,0 +1,67 @@
+/* src/components/Collections.css */
+
+.collections {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .collections-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #474747;
+  }
+  
+  .collections-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .collection-item {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .icon-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-circle img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .collection-name2 {
+    font-size: 14px;
+    color: #474747;
+  }
+  
+  .icon-link {
+    text-decoration: none;
+  }
+  
+  .icon-circle {
+    transition: transform 0.2s ease; /* Transição suave */
+  }
+  
+  .icon-link:hover .icon-circle {
+    transform: scale(1.1); /* Aumenta o círculo em 10% */
+  }
+  
+  .collection-item:hover .icon-circle {
+    transform: scale(1.1); /* Slightly increase the size */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .icon-link:hover {
+    text-decoration: underline; /* Optional: underline the link on hover */
+  }
