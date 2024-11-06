@@ -12,11 +12,11 @@ import CalcaIcon from "../assets/calca-icon.svg";
 import CalcaHoverIcon from "../assets/calca-rosa.svg"; // Novo ícone para hover
 
 const collectionsData = [
-  { id: 1, name: "Camisetas", icon: CamisetaIcon, hoverIcon: CamisetaHoverIcon, link: "/camisetas" },
-  { id: 2, name: "Bonés", icon: BoneIcon, hoverIcon: BoneHoverIcon, link: "/bones" },
-  { id: 3, name: "Calças", icon: CalcaIcon, hoverIcon: CalcaHoverIcon, link: "/calcas" },
-  { id: 4, name: "Headphones", icon: FoneIcon, hoverIcon: FoneHoverIcon, link: "/headphones" },
-  { id: 5, name: "Tênis", icon: TenisIcon, hoverIcon: TenisHoverIcon, link: "/tenis" },
+  { id: 1, name: "Camisetas", icon: CamisetaIcon, hoverIcon: CamisetaHoverIcon, link: "/products" },
+  { id: 2, name: "Bonés", icon: BoneIcon, hoverIcon: BoneHoverIcon, link: "/products" },
+  { id: 3, name: "Calças", icon: CalcaIcon, hoverIcon: CalcaHoverIcon, link: "/products" },
+  { id: 4, name: "Headphones", icon: FoneIcon, hoverIcon: FoneHoverIcon, link: "/products" },
+  { id: 5, name: "Tênis", icon: TenisIcon, hoverIcon: TenisHoverIcon, link: "/products" },
 ];
 
 const Collections = () => {

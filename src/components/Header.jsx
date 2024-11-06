@@ -53,7 +53,7 @@ const Header = () => {
               <input
                 type="text"
                 className="grow"
-                placeholder="Pesquisar"
+                placeholder="Pesquisar produto..."
                 onChange={(e) => setSearch(e.target.value)}
                 onKeyUp={handleSubmit}
                 name="search"
@@ -133,7 +133,7 @@ const Header = () => {
               <input
                 type="text"
                 className="grow"
-                placeholder="Pesquisar"
+                placeholder="Pesquisar produto..."
                 onChange={(e) => setSearch(e.target.value)}
                 onKeyUp={handleSubmit}
                 name="search"

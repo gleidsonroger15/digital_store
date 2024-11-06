@@ -11,7 +11,7 @@
   border: 0px solid;
   background: #D8E3F2;
   border-radius: 8px;
-  padding: 25px 0px 30px 25px;
+  padding: 10px 0px 10px 20px;
   display: flex; /* Usando flexbox para organizar o conteúdo do card */
   justify-content: space-between;
   align-items: center;
@@ -24,11 +24,11 @@
 
 .discount-tag {
   position: absolute;
-  top: 40px;
-  left: 25px;
+  top: 30px;
+  left: 15px;
   background-color: #E7FF86;
   color: #474747;
-  padding: 6px 15px;
+  padding: 5px 17px;
   border-radius: 15px;
   font-weight: bold;
   font-size: 16px;
@@ -58,14 +58,15 @@
   right: 0;
 }
 
-.collection-name {
-  font-size: 30px; /* Aumente o tamanho da fonte conforme desejado */
-  margin-top: 8%;
+.collection-name{
+  margin-top: 10%;
   font-weight:700;
-  width: 51%;
+  width: 44%;
   position: relative;
-  font-size: 32px;
+  font-size: 30px;
   height: 50%;
+  padding-bottom: 30px;
+  line-height: 1.2;
 }
 
 .buy-button {
