@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './Collections.css';
 import CamisetaIcon from "../assets/camiseta-icon.svg";
-import CamisetaHoverIcon from "../assets/camiseta-rosa.svg"; // Novo ícone para hover
+import CamisetaHoverIcon from "../assets/camiseta-rosa.svg"; 
 import BoneIcon from "../assets/bone-icon.svg";
-import BoneHoverIcon from "../assets/bone-rosa.svg"; // Novo ícone para hover
+import BoneHoverIcon from "../assets/bone-rosa.svg"; 
 import FoneIcon from "../assets/fone-icon.svg";
-import FoneHoverIcon from "../assets/fone-rosa.svg"; // Novo ícone para hover
+import FoneHoverIcon from "../assets/fone-rosa.svg"; 
 import TenisIcon from "../assets/tenis-icon.svg";
-import TenisHoverIcon from "../assets/tenis-rosa.svg"; // Novo ícone para hover
+import TenisHoverIcon from "../assets/tenis-rosa.svg"; 
 import CalcaIcon from "../assets/calca-icon.svg"; 
-import CalcaHoverIcon from "../assets/calca-rosa.svg"; // Novo ícone para hover
+import CalcaHoverIcon from "../assets/calca-rosa.svg"; 
 
 const collectionsData = [
   { id: 1, name: "Camisetas", icon: CamisetaIcon, hoverIcon: CamisetaHoverIcon, link: "/products" },

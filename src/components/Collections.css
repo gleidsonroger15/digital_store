@@ -50,18 +50,18 @@
   }
   
   .icon-circle {
-    transition: transform 0.2s ease; /* Transição suave */
+    transition: transform 0.2s ease; 
   }
   
   .icon-link:hover .icon-circle {
-    transform: scale(1.1); /* Aumenta o círculo em 10% */
+    transform: scale(1.1);
   }
   
   .collection-item:hover .icon-circle {
-    transform: scale(1.1); /* Slightly increase the size */
-    transition: transform 0.3s ease; /* Smooth transition */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
   }
   
   .icon-link:hover {
-    text-decoration: underline; /* Optional: underline the link on hover */
+    text-decoration: underline; 
   }

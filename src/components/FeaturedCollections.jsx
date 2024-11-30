@@ -1,4 +1,3 @@
-// src/components/FeaturedCollections.jsx
 import React from 'react';
 import './FeaturedCollections.css';
 import ColecaoCamiseta from "../assets/Colecao-camiseta.svg";

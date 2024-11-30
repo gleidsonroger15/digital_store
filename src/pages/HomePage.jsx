@@ -1,4 +1,3 @@
-// src/pages/HomePage.jsx
 import React from "react";
 import ImageGallery from "../components/ImageGallery";
 import ProductListing from "../components/ProductListing";

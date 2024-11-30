@@ -1,4 +1,3 @@
-/* src/components/FeaturedCollections.css */
 .collection-container {
   display: flex; /* Usando flexbox para organizar os cards em linha */
   justify-content: space-between; /* Espaçamento entre os cards */

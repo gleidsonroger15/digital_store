@@ -28,12 +28,12 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "/categories", // Corrigido
-        element: <h1>Categorias</h1>, // Corrigido
+        path: "/categories", 
+        element: <h1>Categorias</h1>, 
       },
       {
-        path: "/orders", // Corrigido
-        element: <h1>Meu Pedidos</h1>, // Corrigido
+        path: "/orders", 
+        element: <h1>Meu Pedidos</h1>, 
       },
     ],
   },

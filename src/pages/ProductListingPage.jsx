@@ -5,7 +5,6 @@ import Section from "../components/Section";
 import { useSearchParams } from "react-router-dom";
 import ProdutoAlta from "../assets/produto-alta.svg"; // Importe a imagem
 
-// Defina seu banco de dados de produtos
 const productsDb = [
   {
     id: 1,
@@ -150,11 +149,10 @@ const productsDb = [
     priceDiscount: 200,
     category: "Tênis Masculino"
   },
-  // Adicione mais produtos conforme necessário
 ];
 
 const ProductListingPage = () => {
-  const [products, setProducts] = useState(productsDb); // Use o banco de dados original
+  const [products, setProducts] = useState(productsDb); 
   const [showFilters, setShowFilters] = useState(false);
   const [searchParams] = useSearchParams();
   const search = searchParams.get("search");

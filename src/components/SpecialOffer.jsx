@@ -1,4 +1,3 @@
-// src/components/SpecialOffer.js
 import React from 'react';
 import './SpecialOffer.css';
 import OfertaEspecial from "../assets/oferta-especial.svg"

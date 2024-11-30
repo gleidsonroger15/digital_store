@@ -1,6 +1,5 @@
-// src/components/CustomCarousel.js
 import React, { useState, useEffect } from 'react';
-import './CustomCarousel.css'; // Certifique-se de que o CSS está importado
+import './CustomCarousel.css'; 
 
 const CustomCarousel = ({ children }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,7 +10,6 @@ const CustomCarousel = ({ children }) => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
     };
 
-    // Configura o intervalo para mudar automaticamente a cada 15 segundos
     useEffect(() => {
         const interval = setInterval(goToNextSlide, 3000);
 

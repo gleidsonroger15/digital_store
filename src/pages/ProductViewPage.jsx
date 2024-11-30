@@ -5,7 +5,7 @@ import ProductOptions from "../components/ProductOptions";
 import Section from "../components/Section";
 import ProductListing from "../components/ProductListing";
 import Gallery from "../components/Gallery";
-import ProdutoAlta from "../assets/produto-alta.svg"; // Importe a imagem
+import ProdutoAlta from "../assets/produto-alta.svg"; // Importe de imagem
 
 const products = [
   {
